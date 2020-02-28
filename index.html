@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>poker</title>
+    <link rel="stylesheet" href="poker.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div id="outer">
+      <span id="game">
+        <header>Proyas' Poker Palace</header>
+        <span id="topArea">
+          <span class="controlInner">
+            Control<br />
+            <button id="progressButton">progress</button>
+            <button id="resetButton">RESET</button>
+            <button id="refreshButton">manual refresh</button>
+          </span>
+          <span class="controlInner" id="generalDisplays">
+            <span id="gameStateDisplay"></span>
+            <span id="potDisplay"></span>
+            <span id="activePlayerDisplay"></span>
+          </span>
+          <span class="controlInner">
+            <span id="winnerDisplay"></span>
+          </span>
+        </span>
+        <span id="playArea"></span>
+        <span id="playersControlArea"></span>
+      </span>
+      <span id="log"></span>
+    </div>
+  </body>
+</html>
