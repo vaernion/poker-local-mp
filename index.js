@@ -405,8 +405,8 @@ async function getBets() {
   for (let player of players) {
     document.getElementById(`betSubmitButton${player.id}`).style.display =
       "inline";
-    document.getElementById(`betConfirmButton${player.id}`).style.display =
-      "inline";
+    // document.getElementById(`betConfirmButton${player.id}`).style.display =
+    //   "inline";
   }
   return whoBetted;
 }
